@@ -11,7 +11,7 @@ const projects = [
     title: "Project 1",
     description: "This is a project description",
     foto: "https://via.placeholder.com/150",
-    Technologies: ["React", "Tailwind", "Node"],
+    technologies: [{ name: "React" }, { name: "Tailwind" }, { name: "Node" }],
     link: "#",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     title: "Project 2",
     description: "This is a project description",
     foto: "https://via.placeholder.com/150",
-    Technologies: ["React", "Tailwind", "Node"],
+    technologies: [{ name: "React" }, { name: "Tailwind" }, { name: "Node" }],
     link: "#",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     title: "Project 3",
     description: "This is a project description",
     foto: "https://via.placeholder.com/150",
-    Technologies: ["React", "Tailwind", "Node"],
+    technologies: [{ name: "React" }, { name: "Tailwind" }, { name: "Node" }],
     link: "#",
   },
   {
@@ -35,14 +35,30 @@ const projects = [
     title: "Project 4",
     description: "This is a project description",
     foto: "https://via.placeholder.com/150",
-    Technologies: ["React", "Tailwind", "Node"],
+    technologies: [{ name: "React" }, { name: "Tailwind" }, { name: "Node" }],
+    link: "#",
+  },
+  {
+    num: "05",
+    title: "Project 5",
+    description: "This is a project description",
+    foto: "https://via.placeholder.com/150",
+    technologies: [{ name: "React" }, { name: "Tailwind" }, { name: "Node" }],
+    link: "#",
+  },
+  {
+    num: "06",
+    title: "Project 6",
+    description: "This is a project description",
+    foto: "https://via.placeholder.com/150",
+    technologies: [{ name: "React" }, { name: "Tailwind" }, { name: "Node" }],
     link: "#",
   },
 ];
 
 const Projects = () => {
   return (
-    <section className="min-[80vh] flex flex-col justify-center py-12 xl:py-0">
+    <section className="min-[80vh] flex flex-col justify-center py-12">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
@@ -73,7 +89,16 @@ const Projects = () => {
                   {project.title}
                 </h2>
                 <p>{project.description}</p>
-                <p>{project.Technologies}</p>
+                <ul className="flex gap-4">
+                  {project.technologies.map((item, index) => {
+                    return (
+                      <li key={index} className="text-lg text-accent">
+                        {item.name}
+                        {index !== project.technologies.length - 1 && ", "}
+                      </li>
+                    );
+                  })}
+                </ul>
                 {/* <Image src={{}} alt="title" className="w-3 h-4" /> */}
                 <div className="border-b border-white/20 w-full"></div>
               </div>

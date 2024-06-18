@@ -46,6 +46,16 @@ const MobileNav = () => {
               </Link>
             );
           })}
+          <Link
+            href="/contact"
+            className={`text-xl capitalize hover:text-accent transition-all ${
+              pathname === "/contact"
+                ? "text-accent border-b-2 border-accent"
+                : ""
+            }`}
+          >
+            Contact
+          </Link>
         </nav>
       </SheetContent>
     </Sheet>
