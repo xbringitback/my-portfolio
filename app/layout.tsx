@@ -31,6 +31,7 @@ export default function RootLayout({
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
+        <div className=""></div>
       </body>
     </html>
   );
