@@ -20,6 +20,7 @@ const Photo: React.FC = () => {
             priority
             quality={100}
             fill
+            sizes="(min-width: 1024px) 512px, 298px"
             className="object-contain rounded-full"
           />
         </div>
