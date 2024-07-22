@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
-import Logo from "/assets/logo.png";
+import Logo from "../public/assets/logo.png";
 import Image from "next/image";
 
 const Header: React.FC = () => {
@@ -12,10 +12,6 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center gap-4 group">
           <Image src={Logo} alt="Logo" className="h-12 w-12 rounded-lg" />
-          {/* <h1 className="text-2xl font-semibold">
-            <span className="text-accent ml-1">{`x`}</span>
-            bringitback
-          </h1> */}
         </Link>
 
         <div className="hidden xl:flex items-center gap-4">

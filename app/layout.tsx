@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 
-import emblem from "/assets/logo.png";
+import Logo from "../public/assets/logo.png";
 
 const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -17,7 +17,7 @@ const jetBrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Chris M. - Web Developer",
   description: "Portfolio",
-  icons: [{ rel: "icon", url: emblem.src }],
+  icons: [{ rel: "icon", url: Logo.src }],
 };
 
 export default function RootLayout({

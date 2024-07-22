@@ -6,7 +6,7 @@ import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
 
 import { links, LinkItem } from "@/lib/constants";
-import Logo from "/assets/logo.png";
+import Logo from "../public/assets/logo.png";
 import Image from "next/image";
 
 const MobileNav: React.FC = () => {
