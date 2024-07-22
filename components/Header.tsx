@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
-import Logo from "../public/assets/logo.png";
+import Logo from "/assets/logo.png";
 import Image from "next/image";
 
 const Header: React.FC = () => {
