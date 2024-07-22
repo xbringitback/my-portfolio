@@ -1,8 +1,15 @@
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
-import { cva } from "class-variance-authority";
+import { cva, VariantProps } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
+
+interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {
+  className?: string;
+  variant?: "default" | "primary" | "outline";
+  size?: "default" | "sm" | "lg";
+  asChild?: boolean;
+}
 
 const buttonVariants = cva(
   "inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-semibold ring-offset-white transition-colors",
@@ -11,7 +18,7 @@ const buttonVariants = cva(
       variant: {
         default:
           "bg-accent text-primary hover:bg-accent-hover hover:text-white",
-        primary: "bg-primary text-white hover:border-text-accent ",
+        primary: "bg-primary text-white hover:border-text-accent",
         outline:
           "border border-accent bg-transparent text-accent hover:bg-accent hover:text-primary",
       },
@@ -28,12 +35,12 @@ const buttonVariants = cva(
   }
 );
 
-const Button = React.forwardRef(
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, asChild = false, ...props }, ref) => {
     const Comp = asChild ? Slot : "button";
     return (
       <Comp
-        className={cn(buttonVariants({ variant, size, className }))}
+        className={cn(buttonVariants({ variant, size }), className)}
         ref={ref}
         {...props}
       />
@@ -43,5 +50,3 @@ const Button = React.forwardRef(
 Button.displayName = "Button";
 
 export { Button, buttonVariants };
-
-// #6fddffa6

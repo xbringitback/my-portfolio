@@ -6,12 +6,12 @@ import MobileNav from "./MobileNav";
 import Logo from "../public/assets/Logo.png";
 import Image from "next/image";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <header className="py-8 xl:py-12 text-white">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center gap-4 group">
-          <Image src={Logo} alt="Logo" className="h-12 w-12 rounded-none " />
+          <Image src={Logo} alt="Logo" className="h-12 w-12 rounded-lg" />
           {/* <h1 className="text-2xl font-semibold">
             <span className="text-accent ml-1">{`x`}</span>
             bringitback
