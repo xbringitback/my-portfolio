@@ -200,15 +200,23 @@ export const projects: ProjectItem[] = [
     link: "https://simple-note-pi.vercel.app/",
     github: "https://github.com/xbringitback/simple-note",
   },
-  // {
-  //   num: "05",
-  //   title: "Project 5",
-  //   description: "This is a project description",
-  //   foto: "#",
-  //   technologies: [{ name: "React" }, { name: "Tailwind" }, { name: "Node" }],
-  //   link: "#",
-  //   github: "#",
-  // },
+  {
+    num: "05",
+    title: "English Journey",
+    description:
+      "A blog site I created to learn English and share my experiences. A nice classic blog site using a newsletter, create form and Nextjs with a document oriented database.",
+    foto: "/assets/englishblog.png",
+    technologies: [
+      { name: "React" },
+      { name: "Typescript" },
+      { name: "Tailwindcss" },
+      { name: "NextJs" },
+      { name: "MongoDB" },
+      { name: "Prisma" },
+    ],
+    link: "https://english-blog-mu.vercel.app/",
+    github: "https://github.com/xbringitback/english-blog",
+  },
   // {
   //   num: "06",
   //   title: "Project 6",
