@@ -209,7 +209,7 @@ export const projects: ProjectItem[] = [
     technologies: [
       { name: "React" },
       { name: "Typescript" },
-      { name: "Tailwindcss" },
+      { name: "Tailwind" },
       { name: "NextJs" },
       { name: "MongoDB" },
       { name: "Prisma" },
