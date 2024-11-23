@@ -15,7 +15,7 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Chris M. - Web Developer",
+  title: "Chris M. - Full-Stack Developer",
   description: "Portfolio",
   icons: [{ rel: "icon", url: Logo.src }],
 };
