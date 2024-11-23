@@ -20,16 +20,14 @@ const Skills: React.FC = () => {
               My <span className="text-accent">Skills</span>
             </h2>
             <p className="xl:w-3/4 mb-9 ">
-              A small overview of my skills to show what I work with. I want to
-              get to know my skills better and learn more to get the most out of
-              it. I have also looked into Three.js and GSAP, which can display
-              user interface animations, dynamic effects and 3D graphics, which
-              I would like to add to my skill palette. Also React Native for
-              mobile development.
+              Here’s an overview of the technologies I work with to build
+              modern, efficient, and user-friendly applications. Additionally,
+              I’m currently expanding my expertise by learning PHP and Laravel,
+              adding even more versatility to my skill set.
             </p>
           </div>
           <motion.div
-            className="flex flex-wrap gap-6 sm:flex-row flex-col justify-start items-center sm:items-start pb-8"
+            className="flex flex-wrap gap-6 sm:flex-row flex-col justify-start items-center pb-8"
             initial={{ opacity: 0 }}
             animate={{
               opacity: 1,

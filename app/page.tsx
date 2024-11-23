@@ -18,11 +18,10 @@ const Home: React.FC = () => {
               <span className="text-accent"> M.</span>
             </h2>
             <p className="max-w-[560px] mb-9 text-white/80">
-              I am a Junior Full-Stack Web Developer specializing in front-end
-              and back-end development. I strongly believe in continuous
-              learning and collaborating with other developers and designers to
-              improve myself. I mainly work with technologies like JavaScript,
-              React, Next.js and TypeScript.
+              I specialize in modern web technologies, with my main stack
+              including JavaScript, React, Next.js, TypeScript, Prisma, and
+              MongoDB. From creating dynamic front-end interfaces to crafting
+              robust back-end solutions, I enjoy it.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Link

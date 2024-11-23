@@ -10,6 +10,8 @@ import {
   FaEnvelope,
   FaLinkedinIn,
   FaDiscord,
+  FaPhp,
+  FaLaravel,
 } from "react-icons/fa";
 import {
   RiTailwindCssFill,
@@ -19,6 +21,7 @@ import {
 import { IoLogoVercel } from "react-icons/io5";
 import { SiExpress, SiPrisma, SiVite } from "react-icons/si";
 import { BiLogoMongodb, BiLogoTypescript } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
 
 //* icons
 export interface IconItem {
@@ -94,6 +97,18 @@ export const icons: IconItem[] = [
   {
     icon: <BiLogoTypescript className="w-16 h-16" />,
     name: "Typescript",
+  },
+  {
+    icon: <GrMysql className="w-16 h-16" />,
+    name: "Mysql",
+  },
+  {
+    icon: <FaPhp className="w-16 h-16" />,
+    name: "Php",
+  },
+  {
+    icon: <FaLaravel className="w-16 h-16" />,
+    name: "Laravel",
   },
 ];
 

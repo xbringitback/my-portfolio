@@ -22,9 +22,6 @@ const About: React.FC = () => {
             <TabsTrigger value="about">About me</TabsTrigger>
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="soft">Soft Skills</TabsTrigger>
-            <TabsTrigger value="currently">
-              What I&apos;m Currently doing?
-            </TabsTrigger>
           </TabsList>
           <motion.div
             initial={{ opacity: 0 }}
@@ -40,13 +37,18 @@ const About: React.FC = () => {
                   I&apos;m Chris <span className="text-accent"> M.</span>{" "}
                 </h3>
                 <p>
-                  Born and raised in Munich, I tried out a lot of things and
-                  came to the conclusion that the web and software development
-                  is what I like best. I left my comfort zone and moved to the
-                  Ruhrgebiet near Cologne. I want to build my career on this and
-                  I strongly believe in continuous learning and improving
-                  myself, so I try my best to learn in every possible situation,
-                  unfavorable or not.
+                  Born and raised in Munich, I’ve always been curious and eager
+                  to try new things. After exploring various paths, I discovered
+                  my passion for web and software development—a field where
+                  creativity meets logic and where challenges drive innovation.
+                  To fully embrace this journey, I moved to the Ruhr region near
+                  Cologne, stepping out of my comfort zone to focus on building
+                  my skills and career. I thrive on solving problems and turning
+                  ideas into functional, user-friendly solutions. Continuous
+                  learning is at the heart of everything I do, and I enjoy
+                  keeping up with the latest trends and technologies. Whether
+                  it’s a challenging project or a new tool to master, I see
+                  every experience as an opportunity to grow and improve.
                 </p>
               </div>
             </TabsContent>
@@ -56,9 +58,20 @@ const About: React.FC = () => {
                   My <span className="text-accent"> Exp</span>erience
                 </h3>
                 <p>
-                  I have invested most of my time in courses, videos, and my own
-                  small projects. But now I want to gain professional experience
-                  and practice the working world as a developer.
+                  My journey into web and software development has been driven
+                  by curiosity and a commitment to learning. I’ve dedicated
+                  countless hours to courses, tutorials, and hands-on projects,
+                  building a strong foundation in programming and development.
+                  From creating small personal projects to diving deep into
+                  problem-solving, these experiences have honed my skills and
+                  fueled my passion for the craft. Now, I’m ready to take the
+                  next step: gaining professional experience and contributing to
+                  real-world projects as a developer. I’m eager to immerse
+                  myself in collaborative environments, tackle practical
+                  challenges, and continue to grow as part of a team. With my
+                  enthusiasm for learning and my determination to deliver
+                  quality work, I’m excited to begin this new chapter in my
+                  career.
                 </p>
               </div>
             </TabsContent>
@@ -68,25 +81,14 @@ const About: React.FC = () => {
                   <span className="text-accent"> Soft</span> Skills
                 </h3>
                 <p>
-                  As a developer, I am passionate, a quick learner, a problem
-                  solver, open-minded, and a team player. These soft skills
-                  allow me to stay current, approach challenges creatively, and
-                  work efficiently in a team to develop outstanding
-                  applications.
-                </p>
-              </div>
-            </TabsContent>
-            <TabsContent value="currently" className="w-full">
-              <div>
-                <h3 className="text-[36px]">
-                  What I&apos;m Currently{" "}
-                  <span className="text-accent"> doing</span>?
-                </h3>
-                <p>
-                  I have tried working as a freelancer and was able to gain some
-                  experience. Now I am looking for a job in a company because I
-                  would like to work on a product that is continuously produced
-                  and improved.
+                  As a developer, I bring a blend of passion, adaptability, and
+                  a problem-solving mindset to everything I do. I am a quick
+                  learner, always eager to stay ahead of the curve and embrace
+                  new tools, technologies, and ideas. Being open-minded allows
+                  me to approach challenges creatively and explore innovative
+                  solutions. As a team player, I thrive in collaborative
+                  environments, valuing clear communication and shared goals to
+                  ensure efficient workflows and outstanding results.
                 </p>
               </div>
             </TabsContent>
