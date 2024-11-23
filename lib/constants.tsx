@@ -1,5 +1,4 @@
 import {
-  FaHtml5,
   FaCss3Alt,
   FaSass,
   FaReact,
@@ -30,10 +29,6 @@ export interface IconItem {
 }
 
 export const icons: IconItem[] = [
-  {
-    icon: <FaHtml5 className="w-16 h-16" />,
-    name: "HTML",
-  },
   {
     icon: <FaCss3Alt className="w-16 h-16" />,
     name: "CSS",
