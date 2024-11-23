@@ -3,7 +3,7 @@ import About from "./About";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | Chris M. - Web Developer",
+  title: "About | Chris M. Full-Stack Developer",
 };
 
 const AboutPage = () => {

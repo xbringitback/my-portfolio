@@ -3,7 +3,7 @@ import Contact from "./Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Chris M. - Web Developer",
+  title: "Contact | Chris M. Full-Stack Developer",
 };
 
 const ContactPage = () => {

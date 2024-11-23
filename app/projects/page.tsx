@@ -3,7 +3,7 @@ import Projects from "./Projects";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects | Chris M. - Web Developer",
+  title: "Projects | Chris M. Full-Stack Developer",
 };
 
 const ProjectsPage = () => {

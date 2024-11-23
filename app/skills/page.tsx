@@ -3,7 +3,7 @@ import Skills from "./Skills";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Skills | Chris M. - Web Developer",
+  title: "Skills | Chris M. Full-Stack Developer",
 };
 
 const SkillsPage = () => {
