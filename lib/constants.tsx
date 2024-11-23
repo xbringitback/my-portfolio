@@ -1,5 +1,4 @@
 import {
-  FaCss3Alt,
   FaSass,
   FaReact,
   FaNodeJs,
@@ -30,20 +29,40 @@ export interface IconItem {
 
 export const icons: IconItem[] = [
   {
-    icon: <FaCss3Alt className="w-16 h-16" />,
-    name: "CSS",
-  },
-  {
-    icon: <FaSass className="w-16 h-16" />,
-    name: "Sass",
+    icon: <RiNextjsFill className="w-16 h-16" />,
+    name: "NextJs",
   },
   {
     icon: <FaReact className="w-16 h-16" />,
     name: "React",
   },
   {
+    icon: <BiLogoTypescript className="w-16 h-16" />,
+    name: "Typescript",
+  },
+  {
+    icon: <RiTailwindCssFill className="w-16 h-16" />,
+    name: "TailwindCss",
+  },
+  {
+    icon: <FaSass className="w-16 h-16" />,
+    name: "Sass",
+  },
+  {
     icon: <FaNodeJs className="w-16 h-16" />,
     name: "NodeJs",
+  },
+  {
+    icon: <SiPrisma className="w-16 h-16" />,
+    name: "Prisma",
+  },
+  {
+    icon: <BiLogoMongodb className="w-16 h-16" />,
+    name: "MongoDb",
+  },
+  {
+    icon: <RiJavascriptFill className="w-16 h-16" />,
+    name: "Javascript",
   },
   {
     icon: <FaFigma className="w-16 h-16" />,
@@ -58,18 +77,6 @@ export const icons: IconItem[] = [
     name: "Git",
   },
   {
-    icon: <RiTailwindCssFill className="w-16 h-16" />,
-    name: "TailwindCss",
-  },
-  {
-    icon: <RiNextjsFill className="w-16 h-16" />,
-    name: "NextJs",
-  },
-  {
-    icon: <RiJavascriptFill className="w-16 h-16" />,
-    name: "Javascript",
-  },
-  {
     icon: <IoLogoVercel className="w-16 h-16" />,
     name: "Vercel",
   },
@@ -78,20 +85,8 @@ export const icons: IconItem[] = [
     name: "Express",
   },
   {
-    icon: <SiPrisma className="w-16 h-16" />,
-    name: "Prisma",
-  },
-  {
     icon: <SiVite className="w-16 h-16" />,
     name: "Vite",
-  },
-  {
-    icon: <BiLogoMongodb className="w-16 h-16" />,
-    name: "MongoDb",
-  },
-  {
-    icon: <BiLogoTypescript className="w-16 h-16" />,
-    name: "Typescript",
   },
   {
     icon: <GrMysql className="w-16 h-16" />,
